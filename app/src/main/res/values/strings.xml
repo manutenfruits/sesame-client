@@ -3,4 +3,11 @@
 
     <string name="settings_button">Settings</string>
     <string name="title_activity_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="preference_server_host_summary">IP address or host where the server is located</string>
+    <string name="preference_server_host_key">server_host</string>
+    <string name="preference_server_host_title">Host</string>
+    <string name="preference_server_host_dialog_title">Server address</string>
+    <string name="preference_category_server_title">Server</string>
 </resources>
