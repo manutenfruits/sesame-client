@@ -10,4 +10,6 @@
     <string name="preference_server_host_title">Host</string>
     <string name="preference_server_host_dialog_title">Server address</string>
     <string name="preference_category_server_title">Server</string>
+    <string name="open_door_button_1_text">Open 1</string>
+    <string name="open_door_button_2_text">Open 2</string>
 </resources>

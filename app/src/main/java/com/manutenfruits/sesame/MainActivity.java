@@ -7,15 +7,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.Volley;
+import com.manutenfruits.sesame.communication.SesameService;
 
 public class MainActivity extends Activity {
+
+    private SesameService sesameClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        this.sesameClient = new SesameService("http://10.0.0.22", "your_defined_password", this);
     }
 
     @Override
@@ -41,9 +44,12 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void openDoorButtonOnClick(View view) {
+        
+    }
+
     public void openDoor() {
 
-        RequestQueue queue = Volley.newRequestQueue(this);
 
     }
 }

@@ -18,18 +18,24 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Open 1"
-            android:id="@+id/door1"
-            android:layout_centerHorizontal="true"/>
+            android:text="@string/open_door_button_1_text"
+            android:id="@+id/door1button"
+            android:onClick="openDoor"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Open 2"
-            android:id="@+id/door2"
-            android:layout_centerHorizontal="true"
+            android:text="@string/open_door_button_2_text"
+            android:id="@+id/door2button"
             android:layout_marginTop="10dp" />
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/debug_text_view"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
